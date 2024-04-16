@@ -1,0 +1,37 @@
+    /*
+    .lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+    */
+
+
+.caja {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    background: rgb(60, 170, 195);
+    background: linear-gradient(180deg, rgba(60, 170, 195, 1) 0%, rgba(0, 212, 255, 1) 4%, rgba(209, 230, 19, 1) 37%);
+    box-shadow: 10px 10px 20px black;
+    border-radius: 50px;
+    border-radius: 50px 10px;
+    border-radius: 50px 10px 25px; 
+    border-radius: 50px 10px 25px 35px;
+}
+
+.texto {
+    background-color: aqua;
+    column-count: 3;
+    column-gap: 25px;
+    column-rule: 5px solid black;
+
+}
+
+.texto p{
+    margin: 0;
+}
+
+h1{
+    font-family: "Lato", sans-serif;   
+}
