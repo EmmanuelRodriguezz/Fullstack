@@ -1,0 +1,100 @@
+/* font-family: "Open Sans", sans-serif; */
+/* font-family: "League Spartan", sans-serif; */
+/* font-family: "Montserrat", sans-serif; */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+header {
+    background: rgb(93, 224, 230);
+    background: linear-gradient(0deg, rgba(93, 224, 230, 1) 0%, rgba(0, 74, 173, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+header h1 {
+    display: inline-flex;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    bottom: 100px;
+    left: 30px;
+    padding: 16px;
+    font-weight: 600;
+    font-size: 48px;
+    border: 1px solid black;
+}
+
+nav {
+    margin: 0;
+    margin-bottom: 25px;
+    background-color: #004aad;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 3px 6px;
+    margin: 8px;
+    display: block;
+    text-align: center;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li a.activo {
+    color: brown;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer{
+    background-color: #ccc;
+}
+
+.footer{
+    text-align: end;
+    display: flex;
+}
+
+.col{
+    display: flex;
+}
+
+.col h5{
+    margin-left: 315px;
+    justify-content: end;
+}
+
+.col p{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.bienvenidos{
+    max-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
