@@ -78,18 +78,23 @@ footer{
     display: flex;
 }
 
-.col{
+.pie{
     display: flex;
 }
 
-.col h5{
+.pie h5{
     margin-left: 315px;
     justify-content: end;
 }
 
-.col p{
+.pie p{
     margin-top: 25px;
     text-align: center;
+    font-size: 14px;
+}
+
+.pie ul{
+    list-style: circle;
 }
 
 .bienvenidos{
@@ -97,4 +102,21 @@ footer{
     margin: 0;
     padding: 0;
     font-weight: 500;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    display: inline-flex;
+}
+
+.cardbody{
+    display: block;
+}
+
+.cardbody h5{
+    position: relative;
 }
