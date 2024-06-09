@@ -1,0 +1,17 @@
+.contenedor {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.contador {
+    margin-top: 10px;
+    font-size: 16px;
+}

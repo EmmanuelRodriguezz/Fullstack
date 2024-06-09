@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Color de Fondo</title>
+    <link rel="stylesheet" href="css 1.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div id="cuadrado1" class="cuadrado"></div>
+        <div id="cuadrado2" class="cuadrado"></div>
+        <div id="cuadrado3" class="cuadrado"></div>
+    </div>
+
+    <script>
+        document.getElementById('cuadrado1').addEventListener('click', function () {
+            document.body.style.backgroundColor = 'red';
+        });
+        document.getElementById('cuadrado2').addEventListener('click', function () {
+            document.body.style.backgroundColor = 'yellow';
+        });
+        document.getElementById('cuadrado3').addEventListener('click', function () {
+            document.body.style.backgroundColor = 'green';
+        });
+    </script>
+</body>
+
+</html>
