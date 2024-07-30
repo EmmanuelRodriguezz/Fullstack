@@ -1,8 +1,10 @@
+import '../styles/HomePage.css';
 import React from "react";
+
 
 const HomePage = (props) => {
     return (
-        <main className="holder">
+        <main className="hover">
             <div className="bienvenidos">
                 <h2>Bienvenidos</h2>
                 <p>
@@ -20,18 +22,18 @@ const HomePage = (props) => {
                         <h5>Carbono 3K twil</h5>
                     </div>
                 </div>
-            </div>
-            <div className="card">
-                <img src="img/HOME/CARBONO 3K PLANE.png" class="img" alt="3k plane"/>
+                <div className="card">
+                    <img src="img/HOME/CARBONO 3K PLANE.png" class="img" alt="3k plane" />
                     <div className="cardbody">
                         <h5>Carbono 3K plane</h5>
                     </div>
-            </div>
-            <div className="card">
-                <img src="img/HOME/CARBONO 12K.png" class="img" alt="12k twil"/>
+                </div>
+                <div className="card">
+                    <img src="img/HOME/CARBONO 12K.png" class="img" alt="12k twil" />
                     <div className="cardbody">
                         <h5>Carbono 12K twil</h5>
                     </div>
+                </div>
             </div>
         </main>
     );
